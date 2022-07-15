@@ -8,4 +8,9 @@ class thingTest {
   public void do_a_thing(){
     assertTrue(true);
   }
+
+  @Test
+  public void do_a_second_test(){
+    assertTrue(false);
+  }
 }

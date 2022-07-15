@@ -101,7 +101,6 @@ public class SomeXmlReportWriter {
     writeSuiteAttributes(testIdentifier, tests.values(), numberFormat, writer);
 
     newLine(writer);
-    writeSystemProperties(writer);
 
     for (Entry<TestIdentifier, SomeXmlReportWriter.AggregatedTestResult> entry : tests.entrySet()) {
       writeTestcase(entry.getKey(), entry.getValue(), numberFormat, writer);
